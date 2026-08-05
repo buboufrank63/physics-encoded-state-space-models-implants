@@ -1,0 +1,3 @@
+NIST AM-Bench 2022 | Public domain | https://www.nist.gov/ambench
+BAM reference elastic properties for additive-manufacturing alloys | CC BY 4.0 | https://zenodo.org/records/14617243
+

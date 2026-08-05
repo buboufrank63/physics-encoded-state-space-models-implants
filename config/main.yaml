@@ -1,0 +1,30 @@
+seed: 1
+data:
+  root: data
+  train_fraction: 0.70
+  validation_fraction: 0.15
+  test_fraction: 0.15
+  batch_size: 32
+  orderings: 4
+model:
+  state_dimension: 256
+  layers: 6
+  levels: 3
+  input_dimension: 16
+  output_dimension: 6
+  quadrature_points: 4
+train:
+  epochs: 200
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  optimizer: adamw
+  scheduler: cosine
+  world_size: 4
+  precision: fp32
+  physics_weight_start: 1.0
+  physics_weight_end_epoch: 180
+  seeds: [1, 2, 3, 4, 5]
+evaluation:
+  conformal_alpha: 0.10
+  bootstrap_samples: 10000
+

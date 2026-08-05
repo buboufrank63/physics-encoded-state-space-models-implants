@@ -1,0 +1,6 @@
+variant: soft_physics
+equilibrium_encoding: false
+constitutive_encoding: false
+compatibility_encoding: false
+physics_weight: 1.0
+

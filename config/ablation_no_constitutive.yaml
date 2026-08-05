@@ -1,0 +1,5 @@
+variant: no_constitutive
+equilibrium_encoding: true
+constitutive_encoding: false
+compatibility_encoding: true
+
